@@ -1,5 +1,11 @@
-.bg-light-blue {
-  background-color: rgb(158, 224, 255);
+#main-title {
+  background-color: rgb(185, 210, 255);
+  color: rgb(12, 11, 72);
+
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-style: normal;
+  padding: 65px;
 }
 
 .p-8 {
@@ -7,4 +13,135 @@
 }
 #team-list {
   font-size: 20px;
+}
+#button-quiz {
+  background-color: rgb(55, 55, 197);
+  color: rgb(252, 252, 253);
+}
+#rate {
+  color: rgb(12, 11, 72);
+}
+#body {
+  background-color: rgb(236, 242, 255);
+}
+#abtus {
+  background-color: rgb(236, 242, 255);
+}
+#bnfts {
+  background-color: rgb(236, 242, 255);
+}
+#tps {
+  background-color: rgb(236, 242, 255);
+}
+#tips-title {
+  background-color: rgb(185, 210, 255);
+  color: rgb(12, 11, 72);
+
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-style: normal;
+  padding: 65px;
+}
+#benefits-title {
+  background-color: rgb(185, 210, 255);
+  color: rgb(12, 11, 72);
+
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-style: normal;
+  padding: 65px;
+}
+#goal-title {
+  color: rgb(12, 11, 72);
+
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+#team-title {
+  color: rgb(12, 11, 72);
+
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+#contact-title {
+  color: rgb(12, 11, 72);
+
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+#contact-link {
+  color: rgb(12, 11, 72);
+}
+#rate {
+  color: rgb(12, 11, 72);
+}
+#nav {
+  background-color: rgb(236, 242, 255) !important;
+  color: rgb(12, 11, 72);
+  font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+}
+
+#info {
+  color: rgb(12, 11, 72);
+  font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+}
+#reset-info {
+  color: rgb(12, 11, 72);
+  font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+}
+#quiz-card {
+  color: rgb(12, 11, 72);
+  font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+}
+#feedback {
+  color: rgb(12, 11, 72);
+  font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+}
+
+#bnfts {
+  color: rgb(12, 11, 72);
+  font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+}
+#tps {
+  color: rgb(12, 11, 72);
+  font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+}
+#we {
+  color: rgb(12, 11, 72);
+  font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+}
+#team-list {
+  color: rgb(12, 11, 72);
+  font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+}
+#final {
+  color: rgb(12, 11, 72);
+  font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+}
+
+#card-container {
+  display: flex;
+  gap: 10%;
+}
+
+.card-img-top {
+  width: 30% !important;
+  border-radius: 5% !important;
+}
+#quizcard {
+  background-color: rgb(139, 180, 255) !important;
+  color: rgb(243, 243, 247) !important;
 }

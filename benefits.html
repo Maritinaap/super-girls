@@ -12,44 +12,78 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caacupe+One&family=Imperial+Script&family=Lobster&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Ultra&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caacupe+One&family=Commissioner:wght@100..900&family=Imperial+Script&family=Lobster&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Ultra&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="m-2">
+  <body id="bnfts" class="m-2 mx-4">
     <!-- NAVBAR -->
 
-    <nav class="navbar navbar-expand-lg">
+    <!-- NAVBAR -->
+
+    <nav id="nav" class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <!-- Title on the left -->
-
-        <a class="navbar-brand" href="http://127.0.0.1:5500/index.html">
-          Guide to Digital Wellbeing
-        </a>
-
+        <a class="navbar-brand" href="http://127.0.0.1:5500/index.html"
+          >Guide to Digital Wellbeing</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <!-- Navigation on the right -->
-
-        <div class="navbar-nav ms-auto">
-          <a class="nav-link active" href="http://127.0.0.1:5500/index.html"
-            >Home</a
-          >
-
-          <a class="nav-link" href="http://127.0.0.1:5500/benefits.html"
-            >Pros & Consequences</a
-          >
-
-          <a class="nav-link" href="http://127.0.0.1:5500/tips.html">Tips</a>
-          <a class="nav-link" href="http://127.0.0.1:5500/aboutus.html"
-            >About Us</a
-          >
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="http://127.0.0.1:5500/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:5500/benefits.html"
+                >Pros & Consequences</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:5500/tips.html"
+                >Tips</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://127.0.0.1:5500/aboutus.html"
+                >About Us</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
-    <h1 class="my-5">
+    <h1 id="benefits-title" class="my-5 text-center rounded-4 mx-3">
       Pros of Digital Well-being and Consequences of not following
     </h1>
     <div>
-      <h2>Positives</h2>
-      <ul>
+      <h2 class="my-3 mx-4">Positives</h2>
+      <ul class="mx-4">
         <li>
           Improved sleep quality: Reducing screen time before bed can help you
           relax and enjoy deeper, more restful sleep.
@@ -75,8 +109,8 @@
         </li>
       </ul>
 
-      <h2>But what actually happens if you don't take action?</h2>
-      <ul>
+      <h2 class="my-3 mx-4">What actually happens if you don't take action?</h2>
+      <ul class="mx-4">
         <li>
           Poor sleep quality: Excessive screen time, especially before bed, can
           disrupt your sleep patterns and lead to fatigue and irritability.
